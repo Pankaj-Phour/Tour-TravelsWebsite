@@ -1,0 +1,82 @@
+
+.form{
+    margin:4%;
+    background-color: rgb(213, 223, 216);
+    padding:4%;
+}
+.text{
+    font-size: 23px;
+    font-weight: bold;
+    color: grey;
+    padding:8px;
+}
+.outline{
+font-weight: bolder;
+}
+footer{
+    text-decoration: none;
+    color:white;
+    padding-left: 6%;
+    padding-top:18px;
+    background-color: black;
+    padding-bottom: 20px;
+}
+.footer-1{
+    text-decoration: none;
+    color:grey;
+    font-size: 19px;
+   padding-top: 10px;
+   line-height:45px;
+   padding-bottom: 20px;
+    margin:10px;
+}
+.footer-2{
+    text-decoration: none;
+    color:grey;
+    font-size: 19px;
+    line-height:40px;
+   padding-top: 10px;
+}
+.footer-3{
+    text-decoration: none;
+    color:grey;
+    font-size: 19px;
+    padding-top: 10px;
+    line-height:45px;
+    padding-bottom: 20px;
+}
+.list1{
+    text-decoration: none;
+    color:white;
+}
+.footer-1:hover{
+    color:white;
+}
+.footer-2:hover{
+    color:white;
+}
+.footer-3:hover{
+    color:white;
+}
+.brand{
+    color:chocolate;
+    margin-bottom:0;
+    margin-top:0;
+    padding-top:10px;
+    padding-bottom: 6px;
+}
+.contact{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    padding:10px;
+}
+.contact1{
+    font-size: 20px;
+    font-weight: bolder;
+    padding:10px;
+}
+.submit{
+    margin-top:20px;
+    margin-left: 10px;
+}

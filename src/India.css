@@ -1,0 +1,109 @@
+.body-india{
+    z-index:-1;
+    position: absolute;
+    padding-top: 60px;
+}
+footer{
+    text-decoration: none;
+    color:white;
+    padding-left: 6%;
+    padding-top:18px;
+    margin-right: 0px;
+    padding-right: 0px;
+    background-color: black;
+    padding-bottom: 20px;
+}
+.footer-1{
+    text-decoration: none;
+    color:grey;
+    font-size: 19px;
+   padding-top: 10px;
+   line-height:45px;
+   padding-bottom: 20px;
+    margin-right: 0px;
+}
+.footer-2{
+    text-decoration: none;
+    color:grey;
+    font-size: 19px;
+    line-height:40px;
+   padding-top: 10px;
+}
+.footer-3{
+    text-decoration: none;
+    color:grey;
+    font-size: 19px;
+    padding-top: 10px;
+    line-height:45px;
+    padding-bottom: 20px;
+}
+.list1{
+    text-decoration: none;
+    color:white;
+}
+.footer-1:hover{
+    color:white;
+}
+.footer-2:hover{
+    color:white;
+}
+.footer-3:hover{
+    color:white;
+}
+.brand{
+    color:rgb(54, 163, 145);
+    margin-bottom:0;
+    margin-top:0;
+    padding-top:10px;
+    padding-bottom: 6px;
+}
+.help{
+    text-decoration: none;
+    color:green;
+}
+.help:hover{
+    color:black;
+}
+.h1-india{
+    text-align: center;
+    font-family: monospace;
+}
+.p1-india{
+    text-align: justify;
+    padding: 15px;
+    text-align: justify;
+    color: grey;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.image1-india{
+    float:right;
+    padding: 10px;
+    border-radius: 20px;
+    height: 250px;
+    padding-top: 0px;
+}
+.h2-india{
+    text-align: center;
+}
+.p2-india{
+    text-align: justify;
+    padding:15px;
+    color:rgb(161, 81, 40);
+    font-family:'Courier New', Courier, monospace;
+}
+.p3-india{
+    text-align: justify;
+    color:darkgrey;
+    padding:15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.h3-india{
+    text-decoration: none;
+    color:darkorange;
+    font-weight: bolder;
+    padding:15px;
+}
+.h3-india:hover{
+    text-decoration: none;
+    color: orange;
+}

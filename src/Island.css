@@ -1,0 +1,82 @@
+.body-island{
+    z-index:-1;
+    position: absolute;
+    padding-top: 60px;
+}
+.h1-island{
+    text-align: center;
+    color:rgb(54, 163, 145)
+}
+footer{
+    text-decoration: none;
+    color:white;
+    padding-left: 6%;
+    padding-top:18px;
+    margin-right: 0px;
+    padding-right: 0px;
+    background-color: black;
+    padding-bottom: 20px;
+}
+.footer-1{
+    text-decoration: none;
+    color:grey;
+    font-size: 19px;
+   padding-top: 10px;
+   line-height:45px;
+   padding-bottom: 20px;
+    margin-right: 0px;
+}
+.footer-2{
+    text-decoration: none;
+    color:grey;
+    font-size: 19px;
+    line-height:40px;
+   padding-top: 10px;
+}
+.footer-3{
+    text-decoration: none;
+    color:grey;
+    font-size: 19px;
+    padding-top: 10px;
+    line-height:45px;
+    padding-bottom: 20px;
+}
+.list1{
+    text-decoration: none;
+    color:white;
+}
+.footer-1:hover{
+    color:white;
+}
+.footer-2:hover{
+    color:white;
+}
+.footer-3:hover{
+    color:white;
+}
+.brand{
+    color:rgb(54, 163, 145);
+    margin-bottom:0;
+    margin-top:0;
+    padding-top:10px;
+    padding-bottom: 6px;
+}
+.help{
+    text-decoration: none;
+    color:green;
+}
+.help:hover{
+    color:black;
+}
+.h2-island{
+    color:lightgreen;
+}
+.link-island{
+    text-decoration: none;
+    color:lightgreen;
+
+}
+.link-island:hover{
+    text-decoration: none;
+    color:green;
+}

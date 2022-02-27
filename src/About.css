@@ -1,0 +1,73 @@
+.about-us{
+    padding-top:52px;
+}
+.p1{
+    color:grey;
+    text-align: justify;
+    padding:25px;
+}
+h2{
+    padding:20px;
+}
+h3{
+    padding:15px;
+    text-align: center;
+    color:skyblue;
+}
+.p2{
+    color:grey;
+    text-align: justify;
+    padding:25px;
+}
+footer{
+    text-decoration: none;
+    color:white;
+    padding-left: 6%;
+    padding-top:18px;
+    background-color: black;
+    padding-bottom: 20px;
+}
+.footer-1{
+    text-decoration: none;
+    color:grey;
+    font-size: 19px;
+   padding-top: 10px;
+   line-height:45px;
+   padding-bottom: 20px;
+    margin:10px;
+}
+.footer-2{
+    text-decoration: none;
+    color:grey;
+    font-size: 19px;
+    line-height:40px;
+   padding-top: 10px;
+}
+.footer-3{
+    text-decoration: none;
+    color:grey;
+    font-size: 19px;
+    padding-top: 10px;
+    line-height:45px;
+    padding-bottom: 20px;
+}
+.list1{
+    text-decoration: none;
+    color:white;
+}
+.footer-1:hover{
+    color:white;
+}
+.footer-2:hover{
+    color:white;
+}
+.footer-3:hover{
+    color:white;
+}
+.brand{
+    color:chocolate;
+    margin-bottom:0;
+    margin-top:0;
+    padding-top:10px;
+    padding-bottom: 6px;
+}

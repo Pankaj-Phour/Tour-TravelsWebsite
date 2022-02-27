@@ -1,0 +1,26 @@
+.body-england{
+    padding-top: 28px;
+    z-index:-1;
+    position: absolute;
+    margin:0;
+    width:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 0px;
+}
+.home-image-england{
+    margin-top:2%;
+    background: url("england.jpg") no-repeat center;
+    background-size: cover;
+    height:700px;
+    width:100%;
+    position:relative;
+    opacity: 0.7;
+}
+.home-text-england{
+    position: absolute;
+    top:50%;
+    left:50%;
+    text-align: center;
+    transform:translate(-50%,-50%);
+    color:white;
+}
