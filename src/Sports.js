@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Sports.css';
+import Footer from './Footer';
 
 const Sports=() =>
 {
@@ -82,7 +83,7 @@ So it is expecting for the chance to serve our respected guests, Trekkers, Mount
                 <h2 className="heading-island"><NavLink to="/Booking.js" className="heading-link-island">Go on a Canoe Safari</NavLink></h2>
                 <p className="p1-india">
                     <img className="imagep2-home" src="https://media.cntraveler.com/photos/5a247fd771edb005141a017d/master/w_1600%2Cc_limit/Okavango-Delta-GettyImages-691845716.jpg" alt="Canoe Safari"/>
-                    Going on safari in Africa is a no-brainer when it comes to seeking adventure, but where exactly do you start? Botswana's Okavango Delta is a must for first-timers and experienced safari-goers alike, thanks to its wealth of wildlife and topographical diversity. Hop on a mokoro canoe for the best, most intimate look at the roaming elephants, antelope, and cheetahs, among others. Stay at Xigera Safari Lodge, one of the most anticipated recent openings on the continent. You can expect 12 new elevated suites, a baobab tree house for sleeping under the stars, and tons of measures to make the property as eco-friendly as possible.
+                    Going on safari in Africa is a no-brainer when it comes to seeking adventure, but where exact='true'ly do you start? Botswana's Okavango Delta is a must for first-timers and experienced safari-goers alike, thanks to its wealth of wildlife and topographical diversity. Hop on a mokoro canoe for the best, most intimate look at the roaming elephants, antelope, and cheetahs, among others. Stay at Xigera Safari Lodge, one of the most anticipated recent openings on the continent. You can expect 12 new elevated suites, a baobab tree house for sleeping under the stars, and tons of measures to make the property as eco-friendly as possible.
                     You’ll regularly encounter big game in the form of elephants, hippos and crocodiles in the water. A canoe on the water won’t disturb the buffalo, kudu and eland, and predators including lions and other large mammals can be seen along the river banks and shorelines. You’ll find a fantastic array of resident animals and birdlife through the season. The October to March period that has the most migrant animals travelling through the area.
 
 Our canoe trips are often self-supporting with wild-camping on isolated islands, or we spend nights in fully supported mobile fly-camps. We can also make use of comfortable permanent lodges to start or end a canoe safari adventure.
@@ -90,59 +91,8 @@ Our canoe trips are often self-supporting with wild-camping on isolated islands,
 Canoe safaris are generally very active but prior canoeing experience isn’t essential, and a reasonable degree of fitness will certainly help. We set out on the water just after sunrise, break for brunch and siesta in the early afternoon heat, then paddle through the afternoon to catch sundowners in camp before the sun sets. Our ‘bush TV’ comes by way of a primal camp fire.
                     </p>
                     <br/>
-            <marquee>You can send your complaints or suggestions on our official email id: <NavLink to="/Contact.js" className="help">pankaj.phour70@gmail.com</NavLink>. Or you can call us at :- <NavLink to="/Contact.js" className="help"><strong>9518455298</strong></NavLink></marquee>
-            <footer>
-    <div className="row">
-        <ul className="col">
-            <li>
-                <NavLink to="/" exact className="footer-1">Home</NavLink>
-            </li>
-            <li>
-                <NavLink to="/Contact.js" className="footer-1">Contact</NavLink>
-            </li>
-            <li>
-                <NavLink to="/About.js" className="footer-1">About</NavLink>
-            </li>
-            <li>
-                <NavLink to="/Menu.js" className="footer-1">Menu</NavLink>
-            </li>
-        </ul>
-        <div className="col list-2">
-            <h2 className="brand">Traveler's Guide</h2>
-            <ul>
-                <li>
-                    <NavLink to="/Videos.js" className="footer-2">Blogs</NavLink>
-                </li>
-                <li>
-                    <NavLink to="/Videos.js" className="footer-2">Videos</NavLink>
-                </li>
-                <li>
-                    <NavLink to="/Sports.js"  className="footer-2">Sports</NavLink>
-                </li>
-                </ul>
-                </div>
-                <div className="col list-3">
-                  <div className="brand-2">  Places to Visit </div>
-                <ul>
-                    <li>
-                        <NavLink to="/India.js" className="footer-3">
-                            In India
-                        </NavLink>
-                    </li>
-                    <li>
-                        <NavLink to="/International.js" className="footer-3">
-                            International
-                        </NavLink>
-                    </li>
-                    <li>
-                        <NavLink to="/Island.js" className="footer-3">
-                            Islands
-                        </NavLink>
-                    </li>
-                </ul>
-                </div>
-    </div>
-</footer>
+            {/* <marquee>You can send your complaints or suggestions on our official email id: <NavLink to="/Contact.js" className="help">pankaj.phour70@gmail.com</NavLink>. Or you can call us at :- <NavLink to="/Contact.js" className="help"><strong>9518455298</strong></NavLink></marquee> */}
+ < Footer/>
         </div>
     )
 };

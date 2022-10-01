@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import Footer from "./Footer";
 import './Singapore.css';
 const Singapore=() => {
 
@@ -23,58 +24,7 @@ Modern Singapore was founded in 1819 by Sir Stamford Raffles as a trading post o
 <p className="p2-singapore">
 Singapore has the world's highest percentage of millionaires, with one out of every six households having at least one million US dollars in disposable wealth. This excludes property, businesses, and luxury goods, which if included would increase the number of millionaires, especially as property in Singapore is among the world's most expensive. In 2016, Singapore was rated the world's most expensive city for the third consecutive year by the Economist Intelligence Unit, and this remained true in 2018. The government provides numerous assistance programmes to the homeless and needy through the Ministry of Social and Family Development, so acute poverty is rare. Some of the programmes include providing between S$400 and S$1000 of financial assistance per month to needy households, providing free medical care at government hospitals, and paying for children's tuition. Other benefits include compensation for gym fees to encourage citizens to exercise, up to S$166,000 as a baby bonus for each citizen, heavily subsidised healthcare, financial aid for the disabled, the provision of reduced-cost laptops for poor students, rebates for costs such as public transport and utility bills, and more. As of 2018 Singapore's ranking in the Human Development Index is 9th in the world.
 </p>
-<footer>
-    <div className="row">
-        <ul className="col">
-            <li>
-                <NavLink to="/" exact className="footer-1">Home</NavLink>
-            </li>
-            <li>
-                <NavLink to="/Contact.js" className="footer-1">Contact</NavLink>
-            </li>
-            <li>
-                <NavLink to="/About.js" className="footer-1">About</NavLink>
-            </li>
-            <li>
-                <NavLink to="/Menu.js" className="footer-1">Menu</NavLink>
-            </li>
-        </ul>
-        <div className="col list-2">
-            <h2 className="brand">Traveler's Guide</h2>
-            <ul>
-                <li>
-                    <NavLink to="/Blogs.js" className="footer-2">Blogs</NavLink>
-                </li>
-                <li>
-                    <NavLink to="/Videos.js" className="footer-2">Videos</NavLink>
-                </li>
-                <li>
-                    <NavLink to="/Sports.js"  className="footer-2">Sports</NavLink>
-                </li>
-                </ul>
-                </div>
-                <div className="col list-3">
-                  <div className="brand-2">  Places to Visit </div>
-                <ul>
-                    <li>
-                        <NavLink to="/India.js" className="footer-3">
-                            In India
-                        </NavLink>
-                    </li>
-                    <li>
-                        <NavLink to="/International.js" className="footer-3">
-                            International
-                        </NavLink>
-                    </li>
-                    <li>
-                        <NavLink to="/Island.js" className="footer-3">
-                            Islands
-                        </NavLink>
-                    </li>
-                </ul>
-                </div>
-    </div>
-</footer>
+ < Footer/>
         </div>
     );
 }

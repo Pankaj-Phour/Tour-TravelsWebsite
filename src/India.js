@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './India.css';
+import Footer from './Footer';
 
 const India=() =>
 {
@@ -18,7 +19,7 @@ India Tourism Campaign was promoted by many Indian Celebrities and its tagline i
 <p className="p2-india">
 Goa is everything leisurely tropical holidays are made of. The smallest state in India is an internationally famous beach holiday destination. Snuggled in between lush Western Ghats and azure waters of the Arabian Sea, Goa is languid. Goa holiday packages offers you a chance to explore and experience the best of this place. The cerulean waters, sandy shores, thriving parties, delicious gastronomy.Embraced in the heart of the mighty Himalayan range, Himachal Pradesh is a paradise embellished with various natural riches. The mountain state is the ideal location to relax and spend holidays with friends, families, and loved ones. From the snow capped peaks, lush valleys, orchards of fruits, pine forests, bubbling rivers, ancient holy sites, natural springs, thrilling adventures, the Land of Himalayas is simply exquisite. The breathtaking panorama is a sight one never forgets.
 </p>
-<h2 className="h2-india">Tourist spots : <light>From Beaches to Mountain,Lakes,Forests.</light></h2>
+<h2 className="h2-india">Tourist spots : From Beaches to Mountain,Lakes,Forests.</h2>
 <p className="p3-india">
 Rajasthan is one of the most popular travel destination in India. Every domestic and foreign tourist visiting India are keen to explore Rajasthan. The Royal state of Rajputs, erstwhile brave warrior rulers, the place lingers with an indescribable charm. Known for its historical monuments, tourism is benchmarked with majestic forts, places, temples and lakes in the scorching desert. The warm hospitality is catered at internationally awarded hotels & resorts some converted from the former royal residences. Relish the perfect mix of old traditional culture, modern luxuries with the backdrop of sun kissed desert.
 
@@ -164,59 +165,8 @@ BannerImage
 About India
 Tourism in India has shown a phenomenal growth in the past decade. One of the reasons is that the Ministry of tourism, India has realized the immense potential of tourism in India during vacations. India travel tourism has grown rapidly with a great influx of tourists from all across the globe who have been irresistibly attracted to the rich culture, heritage, and incredible natural beauty of India. India tourism with its foggy hill stations, captivating beaches, historical monuments, golden deserts, serene backwaters, pilgrimage sites, rich wildlife, and colourful fairs capture the heart of every tourist.
 </p>
-            <marquee>You can send your complaints or suggestions on our official email id: <NavLink to="/Contact.js" className="help">pankaj.phour70@gmail.com</NavLink>. Or you can call us at :- <NavLink to="/Contact.js" className="help"><strong>9518455298</strong></NavLink></marquee>
-            <footer>
-    <div className="row">
-        <ul className="col">
-            <li>
-                <NavLink to="/" exact className="footer-1">Home</NavLink>
-            </li>
-            <li>
-                <NavLink to="/Contact.js" className="footer-1">Contact</NavLink>
-            </li>
-            <li>
-                <NavLink to="/About.js" className="footer-1">About</NavLink>
-            </li>
-            <li>
-                <NavLink to="/Menu.js" className="footer-1">Menu</NavLink>
-            </li>
-        </ul>
-        <div className="col list-2">
-            <h2 className="brand">Traveler's Guide</h2>
-            <ul>
-                <li>
-                    <NavLink to="/Videos.js" className="footer-2">Blogs</NavLink>
-                </li>
-                <li>
-                    <NavLink to="/Videos.js" className="footer-2">Videos</NavLink>
-                </li>
-                <li>
-                    <NavLink to="/Sports.js"  className="footer-2">Sports</NavLink>
-                </li>
-                </ul>
-                </div>
-                <div className="col list-3">
-                  <div className="brand-2">  Places to Visit </div>
-                <ul>
-                    <li>
-                        <NavLink to="/India.js" className="footer-3">
-                            In India
-                        </NavLink>
-                    </li>
-                    <li>
-                        <NavLink to="/International.js" className="footer-3">
-                            International
-                        </NavLink>
-                    </li>
-                    <li>
-                        <NavLink to="/Island.js" className="footer-3">
-                            Islands
-                        </NavLink>
-                    </li>
-                </ul>
-                </div>
-    </div>
-</footer>
+            {/* <marquee>You can send your complaints or suggestions on our official email id: <NavLink to="/Contact.js" className="help">pankaj.phour70@gmail.com</NavLink>. Or you can call us at :- <NavLink to="/Contact.js" className="help"><strong>9518455298</strong></NavLink></marquee> */}
+            < Footer/>
         </div>
     )
 };
