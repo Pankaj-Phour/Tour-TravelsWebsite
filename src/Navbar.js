@@ -24,10 +24,10 @@ const Navbar= () =>
             <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
         <ul className="nav-menu-items" onClick={showSidebar}>
         <li className="nav-close">
-            <NavLink exact to='/' className="menu-bars"><AiIcons.AiOutlineClose /></NavLink>
+            <NavLink exact='true' to='/' className="menu-bars"><AiIcons.AiOutlineClose /></NavLink>
             </li>
         <li className="nav-list">
-            <NavLink exact to='/' className="navitem">Home</NavLink>
+            <NavLink exact='true' to='/' className="navitem">Home</NavLink>
             </li>
         <li className="nav-list">
             <NavLink to='Contact.js' className="navitem">Contact us</NavLink>
