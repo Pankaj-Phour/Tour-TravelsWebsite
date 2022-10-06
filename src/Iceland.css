@@ -9,7 +9,7 @@
 }
 .home-image-iceland{
     margin-top:2%;
-    background: url("iceland.jpg") no-repeat center;
+    background: url("/src/assets/iceland.jpg") no-repeat center;
     background-size: cover;
     height:700px;
     width:100%;

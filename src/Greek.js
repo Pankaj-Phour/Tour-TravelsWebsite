@@ -1,6 +1,5 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import './greek.jpg';
 import './Greek.css';
 import Footer from './Footer';
 

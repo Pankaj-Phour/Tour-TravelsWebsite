@@ -1,5 +1,11 @@
 .body-menu{
-    padding-top: 60px;
+    padding-top: 40px;
+    z-index:-1;
+    position: absolute;
+    margin:0;
+    width:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 0px;
 }
 footer{
     text-decoration: none;

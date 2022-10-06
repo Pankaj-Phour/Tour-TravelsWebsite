@@ -30,7 +30,6 @@ import Sports from './Sports.js';
 import Videos from './Videos.js';
 
 
-import './singapore.jpg';
 import { Route , Routes } from 'react-router';
 
 const App= () =>

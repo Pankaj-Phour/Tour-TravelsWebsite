@@ -9,7 +9,7 @@
 }
 .home-image-italy{
     margin-top:2%;
-    background: url("italy.jpg") no-repeat center;
+    background: url("/src/assets/italy.jpg") no-repeat center;
     background-size: cover;
     height:700px;
     width:100%;

@@ -9,7 +9,7 @@
 }
 .home-image-kerala{
     margin-top:2%;
-    background: url("kerala.jpg") no-repeat center;
+    background: url("/src/assets/kerala.jpg") no-repeat center;
     background-size: cover;
     height:700px;
     width:100%;

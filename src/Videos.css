@@ -1,3 +1,12 @@
 /* .vid{
     padding-top: 10px;
 } */
+.body-menu{
+    padding-top: 45px;
+    z-index:-1;
+    position: absolute;
+    margin:0;
+    width:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 0px;
+}

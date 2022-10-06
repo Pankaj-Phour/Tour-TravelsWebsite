@@ -9,7 +9,7 @@
 }
 .home-image-singapore{
     margin-top:2%;
-    background: url("singapore.jpg") no-repeat center;
+    background: url("/src/assets/singapore.jpg") no-repeat center;
     background-size: cover;
     height:700px;
     width:100%;
