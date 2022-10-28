@@ -1,6 +1,6 @@
 .home-image{
     margin-top:3%;
-    background: url("image.jpg") no-repeat center;
+    background: url("/src/assets/image.jpg") no-repeat center;
     background-size: cover;
     height:700px;
     position:relative;

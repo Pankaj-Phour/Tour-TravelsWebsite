@@ -9,7 +9,7 @@
 }
 .home-image-newyork{
     margin-top:2%;
-    background: url("newyork.jpg") no-repeat center;
+    background: url("/src/assets/newyork.jpg") no-repeat center;
     background-size: cover;
     height:700px;
     width:100%;

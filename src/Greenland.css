@@ -9,7 +9,7 @@
 }
 .home-image-greenland{
     margin-top:2%;
-    background: url("greenland.jpg") no-repeat center;
+    background: url("/src/assets/greenland.jpg") no-repeat center;
     background-size: cover;
     height:700px;
     width:100%;
