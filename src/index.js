@@ -3,12 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import {BrowserRouter} from 'react-router-dom';
+import { HashRouter} from 'react-router-dom';
 
 ReactDOM.render(
-  <BrowserRouter>
+
+  // Changed the below tag from BrowserRouter to HashRouter on january 12 2023 
+  <HashRouter>
     <App />
-  </BrowserRouter>,
+  </HashRouter>,
   document.getElementById('root')
 );
 
